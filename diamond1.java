@@ -6,7 +6,7 @@ public class Diamond { //ສ້າງຄາສ Diamond
 	
 	public Diamond(int size) { // ສ້າງ constructor ກຳນົດ ຄ່າ int size;
 		//int size ເປັນຕົວແປ argument ທີ່ໃຊ້ຮັບຂໍ້ມູນເຂົ້າສູ່ method
-		this.size =size;
+		this.size =size; // this ຄືເມຶືອຕ້ອງການເອີ້ນໃຊ້ງານ constructor ໂຕອຶ້ອຶ້ນໆ ທີ່ຢູ່ໃນຄາສດຽວກັນ
 		this.halfSize=size/2;
 		
 	}
