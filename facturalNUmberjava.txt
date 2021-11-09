@@ -1,0 +1,27 @@
+package JavaGithubExercise;
+
+import java.util.Scanner;
+
+public class factorial {
+
+	public static void main(String[] args) {
+		int num;
+		
+		System.out.print("Enter the value of Factorial : ");
+		
+		Scanner scan = new Scanner(System.in);
+		num = scan.nextInt();
+		System.out.println("number of factorial = " +factorial1(num));
+
+	}
+	public static int factorial1(int n) {
+		if(n == 1) {
+			System.out.println("factorial ("+n+") ");
+			return 1;
+		}else {
+			System.out.println("factorial ("+ n +")");
+			return n * factorial1(n -1);
+		}
+	}
+
+}
